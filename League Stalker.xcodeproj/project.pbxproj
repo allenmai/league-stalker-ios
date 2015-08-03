@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3FE8361B6F200F00805B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE8351B6F200F00805B75 /* AppDelegate.swift */; };
+		9F3FE8381B6F200F00805B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE8371B6F200F00805B75 /* ViewController.swift */; };
+		9F3FE83B1B6F200F00805B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FE8391B6F200F00805B75 /* Main.storyboard */; };
+		9F3FE83D1B6F200F00805B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FE83C1B6F200F00805B75 /* Assets.xcassets */; };
+		9F3FE8401B6F200F00805B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FE83E1B6F200F00805B75 /* LaunchScreen.storyboard */; };
+		9F3FE84B1B6F200F00805B75 /* League_StalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE84A1B6F200F00805B75 /* League_StalkerTests.swift */; };
+		9F3FE8561B6F200F00805B75 /* League_StalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE8551B6F200F00805B75 /* League_StalkerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F3FE8471B6F200F00805B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F3FE82A1B6F200F00805B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3FE8311B6F200F00805B75;
+			remoteInfo = "League Stalker";
+		};
+		9F3FE8521B6F200F00805B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F3FE82A1B6F200F00805B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3FE8311B6F200F00805B75;
+			remoteInfo = "League Stalker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F3FE8321B6F200F00805B75 /* League Stalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League Stalker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3FE8351B6F200F00805B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F3FE8371B6F200F00805B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F3FE83A1B6F200F00805B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F3FE83C1B6F200F00805B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F3FE83F1B6F200F00805B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F3FE8411B6F200F00805B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3FE8461B6F200F00805B75 /* League StalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League StalkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3FE84A1B6F200F00805B75 /* League_StalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_StalkerTests.swift; sourceTree = "<group>"; };
+		9F3FE84C1B6F200F00805B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3FE8511B6F200F00805B75 /* League StalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League StalkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3FE8551B6F200F00805B75 /* League_StalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_StalkerUITests.swift; sourceTree = "<group>"; };
+		9F3FE8571B6F200F00805B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F3FE82F1B6F200F00805B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE8431B6F200F00805B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE84E1B6F200F00805B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F3FE8291B6F200F00805B75 = {
+			isa = PBXGroup;
+			children = (
+				9F3FE8341B6F200F00805B75 /* League Stalker */,
+				9F3FE8491B6F200F00805B75 /* League StalkerTests */,
+				9F3FE8541B6F200F00805B75 /* League StalkerUITests */,
+				9F3FE8331B6F200F00805B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F3FE8331B6F200F00805B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FE8321B6F200F00805B75 /* League Stalker.app */,
+				9F3FE8461B6F200F00805B75 /* League StalkerTests.xctest */,
+				9F3FE8511B6F200F00805B75 /* League StalkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3FE8341B6F200F00805B75 /* League Stalker */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FE8351B6F200F00805B75 /* AppDelegate.swift */,
+				9F3FE8371B6F200F00805B75 /* ViewController.swift */,
+				9F3FE8391B6F200F00805B75 /* Main.storyboard */,
+				9F3FE83C1B6F200F00805B75 /* Assets.xcassets */,
+				9F3FE83E1B6F200F00805B75 /* LaunchScreen.storyboard */,
+				9F3FE8411B6F200F00805B75 /* Info.plist */,
+			);
+			path = "League Stalker";
+			sourceTree = "<group>";
+		};
+		9F3FE8491B6F200F00805B75 /* League StalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FE84A1B6F200F00805B75 /* League_StalkerTests.swift */,
+				9F3FE84C1B6F200F00805B75 /* Info.plist */,
+			);
+			path = "League StalkerTests";
+			sourceTree = "<group>";
+		};
+		9F3FE8541B6F200F00805B75 /* League StalkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FE8551B6F200F00805B75 /* League_StalkerUITests.swift */,
+				9F3FE8571B6F200F00805B75 /* Info.plist */,
+			);
+			path = "League StalkerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F3FE8311B6F200F00805B75 /* League Stalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3FE85A1B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League Stalker" */;
+			buildPhases = (
+				9F3FE82E1B6F200F00805B75 /* Sources */,
+				9F3FE82F1B6F200F00805B75 /* Frameworks */,
+				9F3FE8301B6F200F00805B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League Stalker";
+			productName = "League Stalker";
+			productReference = 9F3FE8321B6F200F00805B75 /* League Stalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F3FE8451B6F200F00805B75 /* League StalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3FE85D1B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerTests" */;
+			buildPhases = (
+				9F3FE8421B6F200F00805B75 /* Sources */,
+				9F3FE8431B6F200F00805B75 /* Frameworks */,
+				9F3FE8441B6F200F00805B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F3FE8481B6F200F00805B75 /* PBXTargetDependency */,
+			);
+			name = "League StalkerTests";
+			productName = "League StalkerTests";
+			productReference = 9F3FE8461B6F200F00805B75 /* League StalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F3FE8501B6F200F00805B75 /* League StalkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3FE8601B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerUITests" */;
+			buildPhases = (
+				9F3FE84D1B6F200F00805B75 /* Sources */,
+				9F3FE84E1B6F200F00805B75 /* Frameworks */,
+				9F3FE84F1B6F200F00805B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F3FE8531B6F200F00805B75 /* PBXTargetDependency */,
+			);
+			name = "League StalkerUITests";
+			productName = "League StalkerUITests";
+			productReference = 9F3FE8511B6F200F00805B75 /* League StalkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F3FE82A1B6F200F00805B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zheheng Mai";
+				TargetAttributes = {
+					9F3FE8311B6F200F00805B75 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9F3FE8451B6F200F00805B75 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9F3FE8311B6F200F00805B75;
+					};
+					9F3FE8501B6F200F00805B75 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9F3FE8311B6F200F00805B75;
+					};
+				};
+			};
+			buildConfigurationList = 9F3FE82D1B6F200F00805B75 /* Build configuration list for PBXProject "League Stalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F3FE8291B6F200F00805B75;
+			productRefGroup = 9F3FE8331B6F200F00805B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F3FE8311B6F200F00805B75 /* League Stalker */,
+				9F3FE8451B6F200F00805B75 /* League StalkerTests */,
+				9F3FE8501B6F200F00805B75 /* League StalkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F3FE8301B6F200F00805B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FE8401B6F200F00805B75 /* LaunchScreen.storyboard in Resources */,
+				9F3FE83D1B6F200F00805B75 /* Assets.xcassets in Resources */,
+				9F3FE83B1B6F200F00805B75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE8441B6F200F00805B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE84F1B6F200F00805B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F3FE82E1B6F200F00805B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FE8381B6F200F00805B75 /* ViewController.swift in Sources */,
+				9F3FE8361B6F200F00805B75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE8421B6F200F00805B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FE84B1B6F200F00805B75 /* League_StalkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3FE84D1B6F200F00805B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FE8561B6F200F00805B75 /* League_StalkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F3FE8481B6F200F00805B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F3FE8311B6F200F00805B75 /* League Stalker */;
+			targetProxy = 9F3FE8471B6F200F00805B75 /* PBXContainerItemProxy */;
+		};
+		9F3FE8531B6F200F00805B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F3FE8311B6F200F00805B75 /* League Stalker */;
+			targetProxy = 9F3FE8521B6F200F00805B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F3FE8391B6F200F00805B75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3FE83A1B6F200F00805B75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F3FE83E1B6F200F00805B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3FE83F1B6F200F00805B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F3FE8581B6F200F00805B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F3FE8591B6F200F00805B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F3FE85B1B6F200F00805B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "League Stalker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-Stalker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F3FE85C1B6F200F00805B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "League Stalker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-Stalker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F3FE85E1B6F200F00805B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "League StalkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-StalkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League Stalker.app/League Stalker";
+			};
+			name = Debug;
+		};
+		9F3FE85F1B6F200F00805B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "League StalkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-StalkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League Stalker.app/League Stalker";
+			};
+			name = Release;
+		};
+		9F3FE8611B6F200F00805B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "League StalkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-StalkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "League Stalker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F3FE8621B6F200F00805B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "League StalkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxerray.leaguestalker.League-StalkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "League Stalker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F3FE82D1B6F200F00805B75 /* Build configuration list for PBXProject "League Stalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3FE8581B6F200F00805B75 /* Debug */,
+				9F3FE8591B6F200F00805B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F3FE85A1B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League Stalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3FE85B1B6F200F00805B75 /* Debug */,
+				9F3FE85C1B6F200F00805B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F3FE85D1B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3FE85E1B6F200F00805B75 /* Debug */,
+				9F3FE85F1B6F200F00805B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F3FE8601B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3FE8611B6F200F00805B75 /* Debug */,
+				9F3FE8621B6F200F00805B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F3FE82A1B6F200F00805B75 /* Project object */;
+}
