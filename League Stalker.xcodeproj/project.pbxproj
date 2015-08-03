@@ -14,6 +14,7 @@
 		9F3FE8401B6F200F00805B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FE83E1B6F200F00805B75 /* LaunchScreen.storyboard */; };
 		9F3FE84B1B6F200F00805B75 /* League_StalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE84A1B6F200F00805B75 /* League_StalkerTests.swift */; };
 		9F3FE8561B6F200F00805B75 /* League_StalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE8551B6F200F00805B75 /* League_StalkerUITests.swift */; };
+		9F3FE8661B6F232E00805B75 /* SummonersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FE8651B6F232E00805B75 /* SummonersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F3FE8511B6F200F00805B75 /* League StalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League StalkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3FE8551B6F200F00805B75 /* League_StalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_StalkerUITests.swift; sourceTree = "<group>"; };
 		9F3FE8571B6F200F00805B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3FE8651B6F232E00805B75 /* SummonersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummonersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9F3FE8351B6F200F00805B75 /* AppDelegate.swift */,
 				9F3FE8371B6F200F00805B75 /* ViewController.swift */,
+				9F3FE8651B6F232E00805B75 /* SummonersViewController.swift */,
 				9F3FE8391B6F200F00805B75 /* Main.storyboard */,
 				9F3FE83C1B6F200F00805B75 /* Assets.xcassets */,
 				9F3FE83E1B6F200F00805B75 /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3FE8661B6F232E00805B75 /* SummonersViewController.swift in Sources */,
 				9F3FE8381B6F200F00805B75 /* ViewController.swift in Sources */,
 				9F3FE8361B6F200F00805B75 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +487,7 @@
 				9F3FE85C1B6F200F00805B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3FE85D1B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				9F3FE85F1B6F200F00805B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3FE8601B6F200F00805B75 /* Build configuration list for PBXNativeTarget "League StalkerUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				9F3FE8621B6F200F00805B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
